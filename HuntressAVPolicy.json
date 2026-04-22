@@ -585,6 +585,22 @@
           "settingInstanceTemplateId": "69fa7ce4-6cd8-4699-aff7-024a889c25ce"
         }
       }
+    },
+    {
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_defender_excludedpaths",
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "867f7498-1484-443f-bf6a-f12abb1f2f60"
+        },
+        "simpleSettingCollectionValue": [
+          {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+            "@odata.": "33234a2c-786e-4e9c-bd6a-e138e4498c41",
+            "value": "%PROGRAMFILES%\\Huntress\\Rio\\Rio.exe"
+          }
+        ]
+      }
     }
   ],
   "roleScopeTagIds": [
