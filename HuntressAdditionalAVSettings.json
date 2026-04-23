@@ -1,1 +1,52 @@
-﻿{"@odata.context":"https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies/$entity","createdDateTime":"2026-04-23T11:30:26.2530358Z","creationSource":null,"description":"Additional AV settings missing from security AV policy:\n- Allow security intelligence updates from Microsoft Update. \n- Check for the latest virus and spyware security intelligence on startup. ","lastModifiedDateTime":"2026-04-23T11:30:26.2530358Z","name":"Huntress - Additional Defender AV Settings","platforms":"windows10","priorityMetaData":null,"roleScopeTagIds":["0"],"settingCount":2,"technologies":"mdm","id":"0ac63c25-ae22-4544-83d1-9891c7344dc5","templateReference":{"templateId":"","templateFamily":"none","templateDisplayName":null,"templateDisplayVersion":null},"settings":[{"id":"0","settingInstance":{"@odata.type":"#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance","settingDefinitionId":"device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_signatureupdate_forceupdatefrommu","settingInstanceTemplateReference":null,"auditRuleInformation":null,"choiceSettingValue":{"settingValueTemplateReference":null,"value":"device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_signatureupdate_forceupdatefrommu_1","children":[]}}},{"id":"1","settingInstance":{"@odata.type":"#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance","settingDefinitionId":"device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_signatureupdate_updateonstartup","settingInstanceTemplateReference":null,"auditRuleInformation":null,"choiceSettingValue":{"settingValueTemplateReference":null,"value":"device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_signatureupdate_updateonstartup_1","children":[]}}}]}
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies/$entity",
+  "createdDateTime": "2026-04-23T11:30:26.2530358Z",
+  "creationSource": null,
+  "description": "Additional AV settings missing from security AV policy:\n- Allow security intelligence updates from Microsoft Update. \n- Check for the latest virus and spyware security intelligence on startup. ",
+  "lastModifiedDateTime": "2026-04-23T11:30:26.2530358Z",
+  "name": "Huntress - Additional Defender AV Settings",
+  "platforms": "windows10",
+  "priorityMetaData": null,
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settingCount": 2,
+  "technologies": "mdm",
+  "id": "0ac63c25-ae22-4544-83d1-9891c7344dc5",
+  "templateReference": {
+    "templateId": "",
+    "templateFamily": "none",
+    "templateDisplayName": null,
+    "templateDisplayVersion": null
+  },
+  "settings": [
+    {
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_signatureupdate_forceupdatefrommu",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_signatureupdate_forceupdatefrommu_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "1",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_signatureupdate_updateonstartup",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_signatureupdate_updateonstartup_1",
+          "children": []
+        }
+      }
+    }
+  ]
+}
