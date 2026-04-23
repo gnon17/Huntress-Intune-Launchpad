@@ -1,5 +1,5 @@
 {
-  "name": "Huntress Defender Baseline AV Policy",
+  "name": "Huntress - Defender Baseline AV Policy",
   "description": "Huntress Recommended Defender Baselines as defined by https://support.huntress.io/hc/en-us/articles/4404012729747-Microsoft-Defender-Recommended-Default-Settings",
   "settings": [
     {
