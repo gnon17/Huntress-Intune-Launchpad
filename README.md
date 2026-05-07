@@ -25,8 +25,8 @@ A couple of other things worth noting:
 * Only the Huntress-recommended exclusions are included in the Defender AV policy. You'll need to add any client-specific exclusions for line-of-business apps.
 
 ## Full instructions
-Download the latest release from the right side of the screen and execute the HuntressIntuneLaunchpad.ps1 script
-For full details, screenshots, and additional context, see the blog post -
+* Click the latest release from the right side of the screen, download the HuntressIntuneLaunchpad.ps1 script and run with PowerShell
+* For full details, screenshots, and additional context, see the blog post -
 
 ## Requirements
 - PowerShell 5.1+
