@@ -26,7 +26,7 @@ A couple of other things worth noting:
 
 ## Full instructions
 * Click the latest release from the right side of the screen, download the HuntressIntuneLaunchpad.ps1 script and run with PowerShell
-* For full details, screenshots, and additional context, see the blog post -
+* For full details, screenshots, and additional context, see the blog post - https://smbtothecloud.com/huntress-intune-launchpad-automate-huntress-deployment-for-intune/
 
 ## Requirements
 - PowerShell 5.1+
