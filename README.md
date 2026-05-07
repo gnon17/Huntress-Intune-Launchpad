@@ -1,3 +1,5 @@
+<img width="599" height="399" alt="HuntressLaunchpad1 (1)" src="https://github.com/user-attachments/assets/b5c6c4a0-56e0-48e3-b127-badfe99c8cf9" />
+
 # Huntress Windows Launchpad
 
 A single PowerShell script that automates the full Huntress deployment for Windows devices in Microsoft Intune. Currently Windows-only — macOS support is planned.
@@ -19,7 +21,7 @@ You'll be prompted for your Huntress Account Key, Organization Key, and whether 
 Policy configurations are **not embedded in the script** — they're pulled at runtime from JSON files (Huntress-hosted for SIEM, this repo for everything else). You can download and edit the script to use your own baseline JSON URLs. 
 
 A couple of other things worth noting:
-* The Win32 app detection script looks for the `HuntressAgent` service. 
+* The Win32 app detection script looks for the HuntressAgent service. 
 * Only the Huntress-recommended exclusions are included in the Defender AV policy. You'll need to add any client-specific exclusions for line-of-business apps.
 
 ## Full instructions
